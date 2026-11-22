@@ -1,5 +1,6 @@
-class Equipo
+class Equipo:
     """Capa de Logica de Negocio. representa un equipo que llega al centro de servivicio tecnico"""
+
     def __init__(self, id_equipo: int, tiempo_llegada: int, duracion_atencion: int):
         self.id_equipo = id_equipo
         self.tiempo_llegada = tiempo_llegada

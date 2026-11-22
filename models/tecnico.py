@@ -1,4 +1,4 @@
-class Tecnico
+class Tecnico:
     """representa un tecnico del centro de servicios"""
     def __init__(self, id_tecnico: int):
         self.id_tecnico = id_tecnico
@@ -15,7 +15,7 @@ class Tecnico
         """ asigna un equipo al tecnico y calcula en que minuto terminara """
         self.equipo_actual = equipo
         self.tiempo_inicio_atencio = reloj_actual
-        self.tiempo_fin_atencion = reloj_actual + equipo.duracion_atencio
+        self.tiempo_fin_atencion = reloj_actual + equipo.duracion_atencion
 
     def liberar_equipo(self, reloj_actual: int):
         """ filnaliza la atencion del equipo actual y deja al tecnico libre """

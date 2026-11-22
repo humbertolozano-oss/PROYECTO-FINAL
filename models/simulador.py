@@ -10,7 +10,7 @@ class SimuladorCentroServicio:
     def __init__(self, num_tecnicos: int, num_equipos: int, intervalo_llegada: int, tiempo_atencion: int):
         self.num_tecnicos = num_tecnicos
         self.num_equipos = num_equipos
-        self.intervalo-llegada = intervalo_llegada
+        self.intervalo_llegada = intervalo_llegada
         self.tiempo_atencion = tiempo_atencion
 
         self.reloj = 0
