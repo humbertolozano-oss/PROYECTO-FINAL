@@ -11,7 +11,7 @@
 | Nombre del Integrante | Usuario GitHub | Responsabilidad Principal |
 | :--- | :--- | :--- |
 | Humberto Lozano | `@humbertolozano-oss` | Coordinación y Motor de Simulación (`models/`) |
-| [Nombre Integrante 2] | `@[usuario_github_2]` | Interfaz Gráfica de Usuario Tkinter (`ui/`) |
+| [Jefry  2] | `@[usuario_github_2]` | Interfaz Gráfica de Usuario Tkinter (`ui/`) |
 | [Nombre Integrante 3] | `@[usuario_github_3]` | Procesamiento Analítico y Métricas (`analytics/`) |
 | [Nombre Integrante 4] | `@[usuario_github_4]` | Pruebas Unitarias, Casos de Prueba y Documentación (`tests/`) |
 
