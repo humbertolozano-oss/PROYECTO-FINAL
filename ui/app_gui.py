@@ -349,9 +349,3 @@ class SimuladorGUI:
         self.txt_log.config(state="normal")
         self.txt_log.delete("1.0", tk.END)
         self.txt_log.config(state="disabled")
-
-    def _limpiar_log(self):
-        self.txt_log.config(state="normal")
-        self.txt_log.delete("1.0", tk.END)
-        self.txt_log.config(state="disabled")
-    
