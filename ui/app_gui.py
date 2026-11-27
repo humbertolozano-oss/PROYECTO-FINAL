@@ -59,8 +59,8 @@ class SimuladorGUI:
         self.var_atencion = tk.StringVar(value="5")
 
         campos = [
-            ("Técnicos (1-50):", self.var_tecnicos),
-            ("Equipos (1-200):", self.var_equipos),
+            ("Técnicos (1-30):", self.var_tecnicos),
+            ("Equipos (1-100):", self.var_equipos),
             ("Intervalo llegada (min):", self.var_llegada),
             ("Tiempo atención (min):", self.var_atencion)
         ]
