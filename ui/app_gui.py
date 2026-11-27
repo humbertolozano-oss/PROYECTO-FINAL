@@ -196,11 +196,11 @@ class SimuladorGUI:
             messagebox.showerror("Error de Formato", "Todos los parámetros deben ser números enteros válidos.")
             return None
 
-        if not (1 <= num_tecnicos <= 50):
-            messagebox.showerror("Error de Rango", "El número de técnicos debe estar entre 1 y 50.")
+        if not (1 <= num_tecnicos <= 30):
+            messagebox.showerror("Error de Rango", "El número de técnicos debe estar entre 1 y 30.")
             return None
-        if not (1 <= num_equipos <= 200):
-            messagebox.showerror("Error de Rango", "La cantidad de equipos debe estar entre 1 y 200.")
+        if not (1 <= num_equipos <= 100):
+            messagebox.showerror("Error de Rango", "La cantidad de equipos debe estar entre 1 y 100.")
             return None
         if intervalo < 0:
             messagebox.showerror("Error de Rango", "El intervalo de llegada no puede ser negativo.")
