@@ -27,27 +27,7 @@ class SimuladorGUI:
         self.construir_interfaz()
 
     def construir_interfaz(self):
-        # 1. Panel de Casos de Prueba Predefinidos (Requisito de Sustentación)
-        frame_presets = ttk.LabelFrame(self.root, text="Casos de Prueba Oficiales (Demostración Rápida)")
-        frame_presets.pack(fill="x", padx=10, pady=5)
-
-        ttk.Button(
-            frame_presets,
-            text="Caso 1: Normal (Sin Espera)",
-            command=self.cargar_caso_normal
-        ).pack(side="left", padx=5, pady=5)
-
-        ttk.Button(
-            frame_presets,
-            text="Caso 2: Límite (Acumulación / Cuello de Botella)",
-            command=self.cargar_caso_limite
-        ).pack(side="left", padx=5, pady=5)
-
-        ttk.Button(
-            frame_presets,
-            text="Caso 3: Parámetros Inválidos (Excepciones)",
-            command=self.cargar_caso_invalido
-        ).pack(side="left", padx=5, pady=5)
+       
 
         # 2. Panel superior: Configuración de Parámetros
         self.frame_config = ttk.LabelFrame(self.root, text="Configuración de Parámetros")
