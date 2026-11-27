@@ -30,12 +30,10 @@ class CalculadorMetricas:
         else:
             utilizacion_promedio = 0.0
 
-        return {
-            "reloj": simulador.reloj,
-            "equipos_atendidos": len(simulador.equipos_atendidos),
-            "total_equipos": simulador.num_equipos,
-            "en_cola": len(simulador.cola_espera),
-            "tiempo_promedio_espera": round(tiempo_promedio_espera, 2),
-            "utilizacion_por_tecnico": utilizacion_por_tecnico,
-            "utilizacion_promedio": round(utilizacion_promedio, 2)
-        }
+        return {"reloj": simulador.reloj, "equipos_atendidos": len(simulador.equipos_atendidos),
+                        "total_equipos": simulador.num_equipos, "en_cola": len(simulador.cola_espera), 
+                        "tiempo_promedio_espera": round(tiempo_promedio_espera, 2), "utilizacion_por_tecnico": utilizacion_por_tecnico,
+                        "utilizacion_promedio": round(utilizacion_promedio, 2)}
+        
+    
+
